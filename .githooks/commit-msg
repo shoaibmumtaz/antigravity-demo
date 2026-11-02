@@ -6,3 +6,4 @@ if grep -qiE "^co-authored-by:.*($agents)|generated (with|by) .*($agents)" "$1";
   echo "commit rejected: remove the AI co-author or attribution line" >&2
   exit 1
 fi
+

@@ -39,3 +39,4 @@ Restore the whole project, keeping history:
 git restore --source backup-<date> --staged --worktree .
 ./backup.sh "Restored backup-<date>"
 ```
+
