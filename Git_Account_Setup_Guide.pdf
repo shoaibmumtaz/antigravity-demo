@@ -22,240 +22,276 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 8 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> >>
 endobj
 8 0 obj
-<< /Length 4315 >>
+<< /Length 4911 >>
 stream
 0.12 0.44 0.76 rg
 50 738 512 3 re f
 BT
-/F2 20 Tf
+/F2 19 Tf
 0.08 0.18 0.32 rg
 1 0 0 1 50 742 Tm
 (GitHub Multi-Account Setup & Management Guide) Tj
 ET
 BT
-/F1 11 Tf
+/F1 10.5 Tf
 0.4 0.45 0.5 rg
 1 0 0 1 50 720 Tm
 (Personal Account Isolation \(AntiGravity\) vs. Company Account \(VS Code\)) Tj
 ET
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 50 692 Tm
-(This guide details how your Mac is configured to seamlessly run both your Company) Tj
+1 0 0 1 50 694 Tm
+(This guide explains how your Mac is configured to cleanly separate your Company) Tj
 ET
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 50 678 Tm
-(GitHub account \(in VS Code\) and your Personal GitHub account \(in Google) Tj
+1 0 0 1 50 681 Tm
+(GitHub account \(in VS Code\) from your Personal GitHub account \(shoaibmumtaz, in) Tj
 ET
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 50 664 Tm
-(AntiGravity\) without any cross-account conflicts or risk of leaking credentials.) Tj
+1 0 0 1 50 668 Tm
+(Google AntiGravity\), ensuring zero credential collisions.) Tj
 ET
 BT
-/F2 13 Tf
+/F2 12.5 Tf
 0.1 0.25 0.45 rg
-1 0 0 1 50 636 Tm
-(1. Core Concept & Isolation Architecture) Tj
+1 0 0 1 50 644 Tm
+(1. Core Concept & Complete Account Isolation) Tj
 ET
 0.85 0.88 0.92 RG 1 w
-50 632 m 562 632 l S
+50 640 m 562 640 l S
 BT
-/F2 10 Tf
+/F2 9.5 Tf
 0.15 0.15 0.15 rg
-1 0 0 1 50 616 Tm
-(-  Work Isolation: ) Tj
-/F1 10 Tf
+1 0 0 1 50 626 Tm
+(-  Work Profile \(VS Code\): ) Tj
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-(Company work remains untouched in VS Code and uses your company) Tj
+(Operates completely untouched, using your existing) Tj
 ET
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 65 602 Tm
-(credentials stored in macOS Keychain.) Tj
+1 0 0 1 62 613 Tm
+(company credentials stored in macOS Keychain.) Tj
 ET
 BT
-/F2 10 Tf
+/F2 9.5 Tf
 0.15 0.15 0.15 rg
-1 0 0 1 50 584 Tm
-(-  Personal Isolation: ) Tj
-/F1 10 Tf
+1 0 0 1 50 597 Tm
+(-  Personal Profile \(AntiGravity\): ) Tj
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-(All projects inside ~/Documents/Google_AntiGravity/) Tj
+(Configured to strictly use your dedicated) Tj
 ET
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 65 570 Tm
-(automatically use your personal identity and personal SSH key.) Tj
+1 0 0 1 62 584 Tm
+(personal SSH key and personal author credentials.) Tj
 ET
 BT
-/F2 10 Tf
+/F2 9.5 Tf
 0.15 0.15 0.15 rg
-1 0 0 1 50 552 Tm
-(-  Author Identity: ) Tj
-/F1 10 Tf
+1 0 0 1 50 568 Tm
+(-  Commit Author Identity: ) Tj
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-(Personal author identity is locked to shoaibmumtaz) Tj
+(Stamped as shoaibmumtaz <shoaibmumtaz28@gmail.com> for) Tj
 ET
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 65 538 Tm
-(<shoaibmumtaz28@gmail.com>.) Tj
+1 0 0 1 62 555 Tm
+(all personal project commits.) Tj
 ET
 BT
-/F2 10 Tf
+/F2 9.5 Tf
 0.15 0.15 0.15 rg
-1 0 0 1 50 520 Tm
-(-  URL Translation: ) Tj
-/F1 10 Tf
+1 0 0 1 50 539 Tm
+(-  Automatic URL Routing: ) Tj
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-(Even if you paste an HTTPS GitHub link, Git translates it to) Tj
+(Standard HTTPS or SSH GitHub URLs automatically translate) Tj
 ET
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 65 506 Tm
-(SSH so macOS Keychain never tries to log in with your company account.) Tj
+1 0 0 1 62 526 Tm
+(to your personal SSH key.) Tj
 ET
 BT
-/F2 13 Tf
+/F2 12.5 Tf
 0.1 0.25 0.45 rg
-1 0 0 1 50 478 Tm
-(2. Active Configuration Summary) Tj
+1 0 0 1 50 502 Tm
+(2. Active Configuration Details) Tj
 ET
 0.85 0.88 0.92 RG 1 w
-50 474 m 562 474 l S
+50 498 m 562 498 l S
 BT
-/F2 10 Tf
+/F2 9.5 Tf
 0.15 0.15 0.15 rg
-1 0 0 1 50 458 Tm
+1 0 0 1 50 484 Tm
 (-  Dedicated SSH Key: ) Tj
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-(~/.ssh/id_ed25519_personal \(Added to GitHub account:) Tj
+(~/.ssh/id_ed25519_personal \(Linked to your personal GitHub:) Tj
 ET
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 65 444 Tm
+1 0 0 1 62 471 Tm
 (shoaibmumtaz\)) Tj
 ET
 BT
-/F2 10 Tf
+/F2 9.5 Tf
+0.15 0.15 0.15 rg
+1 0 0 1 50 455 Tm
+(-  SSH Host Config: ) Tj
+/F1 9.5 Tf
+0.25 0.25 0.25 rg
+(github-personal alias defined in ~/.ssh/config using) Tj
+ET
+BT
+/F1 9.5 Tf
+0.25 0.25 0.25 rg
+1 0 0 1 62 442 Tm
+(IdentitiesOnly=yes.) Tj
+ET
+BT
+/F2 9.5 Tf
 0.15 0.15 0.15 rg
 1 0 0 1 50 426 Tm
-(-  Global Git Rule: ) Tj
-/F1 10 Tf
+(-  Local Git URL Rewriting: ) Tj
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-(~/.gitconfig contains includeIf for) Tj
+(Translates https://github.com/ and git@github.com: to) Tj
 ET
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 65 412 Tm
-(~/Documents/Google_AntiGravity/) Tj
+1 0 0 1 62 413 Tm
+(your personal key.) Tj
 ET
 BT
-/F2 10 Tf
+/F2 9.5 Tf
 0.15 0.15 0.15 rg
-1 0 0 1 50 394 Tm
-(-  Dedicated Config: ) Tj
-/F1 10 Tf
-0.25 0.25 0.25 rg
-(~/.gitconfig-antigravity contains user details, SSH command,) Tj
-ET
-BT
-/F1 10 Tf
-0.25 0.25 0.25 rg
-1 0 0 1 65 380 Tm
-(and URL rules.) Tj
-ET
-BT
-/F2 10 Tf
-0.15 0.15 0.15 rg
-1 0 0 1 50 362 Tm
+1 0 0 1 50 397 Tm
 (-  Local Backup System: ) Tj
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-(./backup.sh script keeps versioned local zips and bundle) Tj
+(Enforces local commit messages without AI co-authors, and) Tj
 ET
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 65 348 Tm
-(snapshots in _Backups/.) Tj
+1 0 0 1 62 384 Tm
+(writes snapshots to _Backups/.) Tj
 ET
 BT
-/F2 13 Tf
+/F2 12.5 Tf
 0.1 0.25 0.45 rg
-1 0 0 1 50 320 Tm
+1 0 0 1 50 360 Tm
 (3. Step-by-Step: Connecting a Project to GitHub) Tj
 ET
 0.85 0.88 0.92 RG 1 w
-50 316 m 562 316 l S
+50 356 m 562 356 l S
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 50 300 Tm
-(When you create a new repository on github.com \(under shoaibmumtaz\) and want to) Tj
+1 0 0 1 50 342 Tm
+(When you create a repository on github.com \(under shoaibmumtaz\) and want to link) Tj
 ET
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 50 286 Tm
-(link it:) Tj
+1 0 0 1 50 329 Tm
+(your local code:) Tj
 ET
 0.96 0.97 0.98 rg
-50 186 512 82 re f
+50 238 512 75 re f
 0.85 0.88 0.92 RG 0.8 w
-50 186 512 82 re S
+50 238 512 75 re S
 0.15 0.45 0.75 rg
-50 186 3 82 re f
+50 238 3 75 re f
 BT
-/F3 9.5 Tf 0.5 0.55 0.6 rg
-1 0 0 1 62 254 Tm
-(# 1. Add your repository remote URL \(HTTPS or SSH both work\):) Tj
+/F3 9 Tf 0.5 0.55 0.6 rg
+1 0 0 1 60 301 Tm
+(# 1. Add your repository remote URL \(HTTPS or SSH both work automatically\):) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 240 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 288 Tm
 (git remote add origin https://github.com/shoaibmumtaz/my-repo.git) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 226 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 275 Tm
 () Tj
 ET
 BT
-/F3 9.5 Tf 0.5 0.55 0.6 rg
-1 0 0 1 62 212 Tm
+/F3 9 Tf 0.5 0.55 0.6 rg
+1 0 0 1 60 262 Tm
 (# 2. Push your main branch to GitHub:) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 198 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 249 Tm
 (git push -u origin main) Tj
 ET
 BT
-/F2 13 Tf
+/F2 12.5 Tf
 0.1 0.25 0.45 rg
-1 0 0 1 50 164 Tm
+1 0 0 1 50 220 Tm
 (4. Step-by-Step: Verifying Current Account & Remotes) Tj
 ET
 0.85 0.88 0.92 RG 1 w
-50 160 m 562 160 l S
+50 216 m 562 216 l S
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 50 144 Tm
-(To check which identity and remote any repository is currently configured with:) Tj
+1 0 0 1 50 202 Tm
+(To check which identity and destination any repository is currently using:) Tj
+ET
+0.96 0.97 0.98 rg
+50 98 512 88 re f
+0.85 0.88 0.92 RG 0.8 w
+50 98 512 88 re S
+0.15 0.45 0.75 rg
+50 98 3 88 re f
+BT
+/F3 9 Tf 0.5 0.55 0.6 rg
+1 0 0 1 60 174 Tm
+(# Check commit author name & email:) Tj
+ET
+BT
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 161 Tm
+(git config user.name) Tj
+ET
+BT
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 148 Tm
+(git config user.email) Tj
+ET
+BT
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 135 Tm
+() Tj
+ET
+BT
+/F3 9 Tf 0.5 0.55 0.6 rg
+1 0 0 1 60 122 Tm
+(# Check where the repository pushes to:) Tj
+ET
+BT
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 109 Tm
+(git remote -v) Tj
 ET
 BT
 /F1 9 Tf
@@ -269,203 +305,161 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 10 0 R /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> >>
 endobj
 10 0 obj
-<< /Length 3775 >>
+<< /Length 2999 >>
 stream
-0.96 0.97 0.98 rg
-50 646 512 96 re f
-0.85 0.88 0.92 RG 0.8 w
-50 646 512 96 re S
-0.15 0.45 0.75 rg
-50 646 3 96 re f
 BT
-/F3 9.5 Tf 0.5 0.55 0.6 rg
-1 0 0 1 62 728 Tm
-(# Check commit author name & email:) Tj
-ET
-BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 714 Tm
-(git config user.name) Tj
-ET
-BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 700 Tm
-(git config user.email) Tj
-ET
-BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 686 Tm
-() Tj
-ET
-BT
-/F3 9.5 Tf 0.5 0.55 0.6 rg
-1 0 0 1 62 672 Tm
-(# Check where the repository pushes to:) Tj
-ET
-BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 658 Tm
-(git remote -v) Tj
-ET
-BT
-/F2 13 Tf
+/F2 12.5 Tf
 0.1 0.25 0.45 rg
-1 0 0 1 50 624 Tm
+1 0 0 1 50 734 Tm
 (5. Step-by-Step: Changing Settings for a Single Project) Tj
 ET
 0.85 0.88 0.92 RG 1 w
-50 620 m 562 620 l S
+50 730 m 562 730 l S
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 50 604 Tm
-(If you ever need to override the name, email, or remote for just one project:) Tj
+1 0 0 1 50 716 Tm
+(If you ever need to override the author, email, or remote for just one project:) Tj
 ET
 0.96 0.97 0.98 rg
-50 448 512 138 re f
+50 573 512 127 re f
 0.85 0.88 0.92 RG 0.8 w
-50 448 512 138 re S
+50 573 512 127 re S
 0.15 0.45 0.75 rg
-50 448 3 138 re f
+50 573 3 127 re f
 BT
-/F3 9.5 Tf 0.5 0.55 0.6 rg
-1 0 0 1 62 572 Tm
-(# Set a custom author name or email for ONLY this repository:) Tj
+/F3 9 Tf 0.5 0.55 0.6 rg
+1 0 0 1 60 688 Tm
+(# Set custom author details for ONLY this repository:) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 558 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 675 Tm
 (git config user.name "Your Name") Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 544 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 662 Tm
 (git config user.email "your-email@example.com") Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 530 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 649 Tm
 () Tj
 ET
 BT
-/F3 9.5 Tf 0.5 0.55 0.6 rg
-1 0 0 1 62 516 Tm
+/F3 9 Tf 0.5 0.55 0.6 rg
+1 0 0 1 60 636 Tm
 (# Change the remote GitHub repository URL:) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 502 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 623 Tm
 (git remote set-url origin https://github.com/shoaibmumtaz/new-repo.git) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 488 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 610 Tm
 () Tj
 ET
 BT
-/F3 9.5 Tf 0.5 0.55 0.6 rg
-1 0 0 1 62 474 Tm
+/F3 9 Tf 0.5 0.55 0.6 rg
+1 0 0 1 60 597 Tm
 (# Disconnect from GitHub entirely \(reverts to local-only\):) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 460 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 584 Tm
 (git remote remove origin) Tj
 ET
 BT
-/F2 13 Tf
+/F2 12.5 Tf
 0.1 0.25 0.45 rg
-1 0 0 1 50 426 Tm
-(6. Step-by-Step: Managing or Modifying the Automatic Rule) Tj
+1 0 0 1 50 555 Tm
+(6. Step-by-Step: Testing or Modifying the Personal Setup) Tj
 ET
 0.85 0.88 0.92 RG 1 w
-50 422 m 562 422 l S
+50 551 m 562 551 l S
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 50 406 Tm
-(Your personal settings are stored cleanly in dedicated config files:) Tj
+1 0 0 1 50 537 Tm
+(Your personal connection can be verified or modified anytime:) Tj
 ET
 0.96 0.97 0.98 rg
-50 264 512 124 re f
+50 407 512 114 re f
 0.85 0.88 0.92 RG 0.8 w
-50 264 512 124 re S
+50 407 512 114 re S
 0.15 0.45 0.75 rg
-50 264 3 124 re f
+50 407 3 114 re f
 BT
-/F3 9.5 Tf 0.5 0.55 0.6 rg
-1 0 0 1 62 374 Tm
-(# View your active global Git settings:) Tj
+/F3 9 Tf 0.5 0.55 0.6 rg
+1 0 0 1 60 509 Tm
+(# Verify personal SSH connection directly with GitHub:) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 360 Tm
-(git config --global --list) Tj
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 496 Tm
+(ssh -T git@github-personal) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 346 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 483 Tm
 () Tj
 ET
 BT
-/F3 9.5 Tf 0.5 0.55 0.6 rg
-1 0 0 1 62 332 Tm
-(# Edit your personal AntiGravity settings \(email, key, etc.\):) Tj
+/F3 9 Tf 0.5 0.55 0.6 rg
+1 0 0 1 60 470 Tm
+(# View your active local repository Git settings:) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 318 Tm
-(nano ~/.gitconfig-antigravity) Tj
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 457 Tm
+(git config --local --list) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 304 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 444 Tm
 () Tj
 ET
 BT
-/F3 9.5 Tf 0.5 0.55 0.6 rg
-1 0 0 1 62 290 Tm
-(# To disable the automatic folder rule completely in the future:) Tj
+/F3 9 Tf 0.5 0.55 0.6 rg
+1 0 0 1 60 431 Tm
+(# View your active SSH host configuration:) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 276 Tm
-(git config --global --unset "includeIf.gitdir:~/Documents/Google_AntiGravity/.path") Tj
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 418 Tm
+(cat ~/.ssh/config) Tj
 ET
 BT
-/F2 13 Tf
+/F2 12.5 Tf
 0.1 0.25 0.45 rg
-1 0 0 1 50 242 Tm
+1 0 0 1 50 389 Tm
 (7. Local Backup Workflow Reminder) Tj
 ET
 0.85 0.88 0.92 RG 1 w
-50 238 m 562 238 l S
+50 385 m 562 385 l S
 BT
-/F1 10 Tf
+/F1 9.5 Tf
 0.25 0.25 0.25 rg
-1 0 0 1 50 222 Tm
-(As defined in the project version control rules, local snapshots are created) Tj
-ET
-BT
-/F1 10 Tf
-0.25 0.25 0.25 rg
-1 0 0 1 50 208 Tm
-(using:) Tj
+1 0 0 1 50 371 Tm
+(As defined in the project version control rules, local snapshots are created using:) Tj
 ET
 0.96 0.97 0.98 rg
-50 150 512 40 re f
+50 319 512 36 re f
 0.85 0.88 0.92 RG 0.8 w
-50 150 512 40 re S
+50 319 512 36 re S
 0.15 0.45 0.75 rg
-50 150 3 40 re f
+50 319 3 36 re f
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 176 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 343 Tm
 (./backup.sh "Describe what was changed"    # Creates local commit, tag & zip) Tj
 ET
 BT
-/F4 9.5 Tf 0.1 0.15 0.2 rg
-1 0 0 1 62 162 Tm
+/F4 9 Tf 0.1 0.15 0.2 rg
+1 0 0 1 60 330 Tm
 (./backup.sh list                          # Displays all timestamped backups) Tj
 ET
 BT
@@ -487,10 +481,10 @@ xref
 0000000421 00000 n 
 0000000521 00000 n 
 0000000677 00000 n 
-0000005044 00000 n 
-0000005201 00000 n 
+0000005640 00000 n 
+0000005797 00000 n 
 trailer
 << /Size 11 /Root 1 0 R >>
 startxref
-9029
+8849
 %%EOF
