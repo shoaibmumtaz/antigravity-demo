@@ -1,0 +1,8 @@
+#!/bin/sh
+# Rejects AI attribution so it can never reach local history or GitHub.
+agents='claude|anthropic|copilot|cursor|chatgpt|openai|codex|gemini|devin|aider|\[bot\]'
+
+if grep -qiE "^co-authored-by:.*($agents)|generated (with|by) .*($agents)" "$1"; then
+  echo "commit rejected: remove the AI co-author or attribution line" >&2
+  exit 1
+fi
