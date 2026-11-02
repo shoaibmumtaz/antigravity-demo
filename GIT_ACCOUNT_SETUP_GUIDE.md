@@ -106,3 +106,4 @@ Per the project version control rules, local snapshots can be saved without push
 ./backup.sh "Describe what changed"    # Saves local commit, tag, and zip archive
 ./backup.sh list                       # Displays all saved backups
 ```
+
